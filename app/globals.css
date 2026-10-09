@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================================================
+   Flock Design System — design tokens v1.1
+   Copiados literalmente de flock-system-design/tokens.css. NO modificar valores:
+   la constitución (principio IV) prohíbe inventar colores, radios y tipografías.
+   Para extender la paleta de series de datos, ver lib/viz/palette.ts, que deriva
+   de estos tokens en vez de agregar nuevos.
+   ========================================================================== */
+:root {
+  /* Brand */
+  --brand:        #7800C0;  /* Brand Purple — acción primaria, enlaces */
+  --brand-dark:   #300840;  /* Brand Dark — títulos, topbar, texto de contraste */
+  --brand-2:      #9D2BD6;  /* Brand Bright — acentos, gradientes, bullets */
+  --accent:       #F85000;  /* Accent Orange — énfasis puntual / CTA secundario */
+
+  /* Tintes y superficies */
+  --brand-soft:   #f3e6fb;  /* fondo de chips e íconos */
+  --brand-softer: #faf5fe;  /* fondo de página */
+  --surface:      #f8f3fc;  /* superficies sutiles, cabeceras de tabla */
+  --panel:        #ffffff;  /* tarjetas / paneles */
+  --bg:           #ffffff;
+
+  /* Texto */
+  --text:         #2c0b3a;
+  --text-soft:    #6b5a78;
+  --text-faint:   #9b8aa8;
+
+  /* Bordes */
+  --border:        #e9ddf4;
+  --border-strong: #d9c7ec;
+
+  /* Radio / sombra */
+  --radius: 12px;
+  --shadow:    0 1px 3px rgba(48,8,64,.08), 0 1px 2px rgba(48,8,64,.05);
+  --shadow-lg: 0 22px 50px -16px rgba(48,8,64,.42);
+
+  /* Pilas de fuente */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Gradientes */
+  --brand-gradient: linear-gradient(120deg, #300840 0%, #7800C0 100%);
+  --nav-gradient:   linear-gradient(185deg, #300840 0%, #24062f 100%);
+  --stat-gradient:  linear-gradient(135deg, #7800C0 0%, #9D2BD6 100%);
+
+  /* Colores de estado — bg / fg / bar */
+  --state-pending-bg:  #f1ecf6; --state-pending-fg:  #6b5a78; --state-pending-bar:  #9b8aa8;
+  --state-progress-bg: #f3e6fb; --state-progress-fg: #7800C0; --state-progress-bar: #7800C0;
+  --state-blocked-bg:  #fde7ee; --state-blocked-fg:  #be123c; --state-blocked-bar:  #e11d48;
+  --state-done-bg:     #dcf7e6; --state-done-fg:     #15803d; --state-done-bar:     #16a34a;
+}
+
+/* Tema oscuro. El morado de acción brilla; --brand-dark y --accent se mantienen. */
+html.dark {
+  --brand:        #9D2BD6;
+  --brand-dark:   #300840;
+  --brand-2:      #B15EDB;
+  --accent:       #F85000;
+
+  --brand-soft:   rgba(157,43,214,.14);
+  --brand-softer: #161b22;
+  --surface:      #161b22;
+  --panel:        #1c2128;
+  --bg:           #0d1117;
+
+  --text:         #e6edf3;
+  --text-soft:    #8b949e;
+  --text-faint:   #484f58;
+
+  --border:        rgba(255,255,255,.10);
+  --border-strong: rgba(255,255,255,.16);
+
+  --shadow:    0 1px 3px rgba(0,0,0,.40), 0 1px 2px rgba(0,0,0,.30);
+  --shadow-lg: 0 22px 50px -16px rgba(0,0,0,.60);
+
+  /* Estados sobre oscuro: se conserva el matiz, se baja el fondo */
+  --state-pending-bg:  rgba(155,138,168,.16);
+  --state-progress-bg: rgba(157,43,214,.18);
+  --state-blocked-bg:  rgba(225,29,72,.16);
+  --state-done-bg:     rgba(22,163,74,.16);
+  --state-pending-fg:  #b9aec4;
+  --state-progress-fg: #c98ae8;
+  --state-blocked-fg:  #fb7185;
+  --state-done-fg:     #4ade80;
+}
+
+/* Fuera de los bloques de tokens a propósito: no es un valor del design system sino el aviso
+   al navegador de qué tema está activo, para que pinte sus controles nativos (la barra de
+   desplazamiento, sobre todo) acordes. Sin esto, en oscuro aparecía una barra blanca. */
+:root { color-scheme: light; }
+html.dark { color-scheme: dark; }
+
+/* Texto sobre marca: el design system lo fija en blanco (§5 botones, "Stat card con gradiente")
+   pero no le da un token. Se nombra acá para que el código no tenga literales (SC-007). Es el
+   mismo en los dos temas: blanco sobre violeta. Los grises sobre marca se hacen con opacidad,
+   no con colores nuevos. */
+:root {
+  --text-on-brand: #fff;
+  /* Botón "Light (sobre marca)" del design system §5: fondo y hover, sobre el gradiente. */
+  --on-brand-light: rgba(255,255,255,.14);
+  --on-brand-light-hover: rgba(255,255,255,.26);
+}
+
+/* Alto del área de dibujo de un gráfico. No es un token de diseño sino de layout: el mismo
+   componente del catálogo es grande cuando es el foco de la conversación y compacto en las
+   tarjetas del tablero, y es el contenedor el que decide cuál (.chart-compact, .chart-wide).
+   En foco ocupa lo que dejan libre la barra, el titular, un KPI y el dock de voz (unos
+   560 px), para que la vista entera entre sin desplazar en una pantalla de 900 px. */
+:root { --chart-body-h: clamp(280px, calc(100dvh - 560px), 620px); }
+.chart-compact { --chart-body-h: 248px; }
+.chart-wide { --chart-body-h: 280px; }
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background: var(--brand-softer);
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Escala tipográfica del design system §2 */
+  .type-display  { font-size: 30px;   font-weight: 700; letter-spacing: -0.5px; }
+  .type-section  { font-size: 20px;   font-weight: 700; }
+  .type-card     { font-size: 16.5px; font-weight: 700; letter-spacing: -0.2px; }
+  .type-body     { font-size: 14px;   font-weight: 400; line-height: 1.45; }
+  .type-secondary{ font-size: 12.5px; font-weight: 500; color: var(--text-soft); }
+  .type-label    {
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.7px; color: var(--text-faint);
+  }
+}
+
+@layer components {
+  /* Datos tabulares: mono + tabular-nums para que los números aliñen */
+  .text-mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Card hero con gradiente. En hover SUBE el brillo, nunca vira a blanco. */
+  .stat-card-hero {
+    background: var(--stat-gradient);
+    color: var(--text-on-brand);
+    transition: filter .15s ease;
+  }
+  .stat-card-hero:hover { filter: brightness(1.07); }
+
+  /* Panel base. Regla de separación de capas: los paneles van sobre --panel,
+     nunca sobre --surface/--brand-softer (violeta sobre violeta se ve plano). */
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+}
+
+/* Animación de entrada de overlays (design system §5) */
+@keyframes pop {
+  0%   { transform: scale(.96); opacity: 0; }
+  100% { transform: scale(1);   opacity: 1; }
+}
+
+/* Principio V: las animaciones se degradan, el feedback de estado no desaparece. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .12s !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "type": "client",
+  "name": "proposeVisualization",
+  "description": "Genera una visualización nueva. Llamalo SOLO cuando ya tengas resueltos el dominio, la métrica y el corte. Si te falta alguno, preguntáselo al usuario primero: este tool no adivina. Te contesta enseguida, mientras el gráfico todavía se dibuja, así que podés empezar a describir el resultado sin esperar.",
+  "expects_response": true,
+  "response_timeout_secs": 15,
+  "pre_tool_speech": "auto",
+  "parameters": {
+    "type": "object",
+    "description": "Todo lo que define la visualización. Los ids de metric y groupBy salen de getDataCatalog: no los inventes.",
+    "properties": {
+      "domain": {
+        "type": "string",
+        "description": "El dominio de datos: 'nomina' (las personas: estructura, perfil, tecnología y egresos con su motivo) o 'movimientos' (la evolución mes a mes de la dotación: ingresos, egresos y attrition).",
+        "enum": [
+          "nomina",
+          "movimientos"
+        ]
+      },
+      "metric": {
+        "type": "string",
+        "description": "Id de la métrica a medir, tal como lo devuelve getDataCatalog."
+      },
+      "groupBy": {
+        "type": "array",
+        "description": "Dimensiones por las que se corta, como máximo dos: la primera es el eje y la segunda las series. Vacío si el resultado es un número solo.",
+        "items": {
+          "type": "string",
+          "description": "Id de una dimensión, tal como lo devuelve getDataCatalog."
+        }
+      },
+      "filters": {
+        "type": "array",
+        "description": "Filtros a aplicar. Vacío si no hay ninguno.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "field": {
+              "type": "string",
+              "description": "Id de la dimensión por la que se filtra, tal como lo devuelve getDataCatalog."
+            },
+            "op": {
+              "type": "string",
+              "description": "Operador: eq (igual), neq (distinto), in / nin (está / no está en la lista), gte (mayor o igual), lte (menor o igual), between (entre dos valores), contains (contiene el texto).",
+              "enum": [
+                "eq",
+                "neq",
+                "in",
+                "nin",
+                "gte",
+                "lte",
+                "between",
+                "contains"
+              ]
+            },
+            "value": {
+              "type": "string",
+              "description": "Valor del filtro, con la grafía que devuelve getDataCatalog. Los meses van como AAAA-MM (por ejemplo 2024-03). Para in, nin y between, varios valores separados por coma (between: 'desde,hasta'). Vacío para sacar un filtro que ya estaba."
+            }
+          },
+          "required": [
+            "field",
+            "op",
+            "value"
+          ]
+        }
+      },
+      "sortBy": {
+        "type": "string",
+        "description": "Por qué ordenar: 'metric' (por el valor), 'dimension' (alfabético o cronológico) o 'default' (que decida el motor según el tipo de dimensión).",
+        "enum": [
+          "metric",
+          "dimension",
+          "default"
+        ]
+      },
+      "sortDir": {
+        "type": "string",
+        "description": "Sentido del orden. Por defecto 'desc'.",
+        "enum": [
+          "asc",
+          "desc"
+        ]
+      },
+      "limit": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "description": "Cuántas categorías mostrar como máximo, entre 1 y 50. Null o ausente para mostrarlas todas."
+      },
+      "chartType": {
+        "type": "string",
+        "description": "Tipo de gráfico. kpi para un número solo, sin corte; pie y donut con exactamente una dimensión; barGrouped, barStacked y composed con exactamente dos.",
+        "enum": [
+          "bar",
+          "barGrouped",
+          "barStacked",
+          "line",
+          "area",
+          "pie",
+          "donut",
+          "scatter",
+          "composed",
+          "kpi",
+          "table"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "description": "Título corto del gráfico, en español."
+      },
+      "assumptions": {
+        "type": "array",
+        "description": "Decisiones cosméticas que tomaste sin preguntar (orden, tipo de gráfico, cuántos mostrar), para que el usuario sepa leer el gráfico.",
+        "items": {
+          "type": "string",
+          "description": "Una decisión, en una frase corta."
+        }
+      }
+    },
+    "required": [
+      "domain",
+      "metric",
+      "chartType",
+      "title"
+    ]
+  }
+}

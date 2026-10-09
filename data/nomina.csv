@@ -1,0 +1,125 @@
+activo,sexo,region,amba,hijes,ingreso,egreso,motivo_egreso,edad,antiguedad_anios,area,posicion,categoria,tech_principal,proyecto,ingles,entrevistador,es_champion,flock_talent,buddy
+No,F,,0,Sí,2021-03-11,2023-06-19,"Razones personales (viajar, estudiar, motivos familiares, etc)",33,2.2,Estructura,Business Manager,,N/A,Interno,B2,No,No,No,
+No,F,CABA,0,No,2020-10-06,2023-07-27,Mejora salarial y/o beneficios,47,2.8,Operación,Software Engineering,,React,Banco Ñandú,,Si,No,No,No
+No,F,CABA,0,No,2022-08-17,2023-08-01,"Razones personales (viajar, estudiar, motivos familiares, etc)",34,0.9,Operación,Functional Analyst,Semi Senior,N/A,Aseguradora Tero,B2,Si,No,,No
+No,F,CABA,0,No,2024-03-15,2025-03-31,Mejores posibilidades de desarrollo profesional,38,1,Estructura,People & Culture Partner,N/A,N/A,Interno,B1,No,No,No,Si
+No,F,Córdoba,1,No,2024-12-28,2026-06-29,Problemas actitudinales (despido),38,1.5,,,,N/A,,A1,Si,No,No,
+No,F,"GBA, Merlo",0,Sí,2023-02-24,2023-05-26,"Razones personales (viajar, estudiar, motivos familiares, etc)",38,0.2,,,,,,,No,No,,No
+No,F,"GBA, Ramos Mejía",0,No,2021-04-01,2024-08-08,Baja performance (despido),29,3.3,Operación,Software Engineering,Senior,"Angular ",Aseguradora Tero,,Si,No,No,No
+No,F,Mendoza,1,No,2023-02-05,2023-06-28,Pasa a Nimbus Labs,41,0.3,,Software Engineering,Senior,"Angular ",Aseguradora Tero,,No,Si,No,No
+No,F,Neuquén,1,Sí,2021-03-27,2024-02-07,Mejora salarial y/o beneficios,28,2.8,Operación,Scrum Master,N/A,Scrum Master,Banco Ñandú,C1,No,No,No,
+No,M,,,No,2023-07-20,2025-07-14,Baja performance (despido),25,1.9,Operación,Software Engineering,Semi Senior,NodeJs,Banco Ñandú,,No,No,No,No
+No,M,,0,No,2020-11-26,2023-03-17,Mejora salarial y/o beneficios,47,2.3,Operación,Software Engineering,Senior,React,Logística Ombú,B2,No,No,No,No
+No,M,AMBA,0,,2022-04-05,2024-05-02,Mejora salarial y/o beneficios,28,2,I+D,I+D Analyst,,React,I+D,,No,No,No,No
+No,M,AMBA,0,Sí,2021-05-06,2024-10-14,Mejora salarial y/o beneficios,32,3.4,I+D,I+D Analyst,Semi Senior,Data,I+D,B1,No,No,No,Si
+No,M,Buenos Aires,1,No,2021-03-28,2025-12-02,Baja performance (despido),,4.6,,,,N/A,,,No,No,,
+No,M,CABA,0,No,2020-10-23,2023-02-24,Mejora salarial y/o beneficios,32,2.3,Operación,Software Engineering,Senior,React,Aseguradora Tero,,Si,No,No,
+No,M,CABA,0,No,2021-11-24,2025-11-24,Pasa a nómina del cliente,44,4,Operación,Software Engineering,Semi Senior inicial,React,Retail Calafate,A1,Si,No,No,No
+No,M,CABA,0,No,2022-02-23,2025-12-08,"Razones personales (viajar, estudiar, motivos familiares, etc)",38,3.7,I+D,I+D Analyst,Semi Senior inicial,React,I+D,,Si,No,No,No
+No,M,CABA,0,No,2022-07-16,2024-01-10,"Razones personales (viajar, estudiar, motivos familiares, etc)",34,1.4,Estructura,People,N/A,N/A,Interno,,No,No,,Si
+No,M,CABA,0,No,2022-08-14,2023-04-15,"Razones personales (viajar, estudiar, motivos familiares, etc)",26,0.6,,QA Analyst,Senior medio,"QA, Automation",Energía Puelche,B2,No,No,No,No
+No,M,CABA,0,No,2022-12-08,2024-03-16,Mejora salarial y/o beneficios,53,1.2,Operación,Software Engineering,Junior avanzado,NodeJs,Aseguradora Tero,,No,Si,No,No
+No,M,CABA,0,No,2023-03-20,2026-06-10,Mejora salarial y/o beneficios,40,3.2,Operación,Functional Analyst,Senior,Data,Aseg. Tero,,No,Si,No,No
+No,M,CABA,0,No,2023-08-06,2024-01-08,Baja performance (despido),42,0.4,Operación,Data Lead,Semi Senior,PowerBI,Aseguradora Tero,A2,No,No,No,No
+No,M,CABA,0,No,2024-05-16,2026-04-24,Mejores posibilidades de desarrollo profesional,,1.9,,Software Engineering,Semi Senior,NodeJs,Aseguradora Tero,B2,No,No,,No
+No,M,CABA,0,Sí,2022-01-15,2025-03-30,Problemas actitudinales (despido),22,3.2,,Functional Analyst,Junior avanzado,Data,Aseguradora Tero,,Si,No,No,Si
+No,M,CABA,0,Sí,2022-11-12,2024-04-04,Pasa a nómina del cliente,38,1.3,,Functional Analyst,Senior,Data,Banco Ñandú,,No,No,,No
+No,M,Chile,1,No,2021-09-08,2025-10-01,Mejora salarial y/o beneficios,39,4,,,,N/A,,,No,No,,Si
+No,M,Entre Ríos,1,No,2022-10-12,2025-12-01,Sin asignación (despido),56,3.1,Operación,Software Engineering,Semi Senior,NodeJS,Retail Calafate,,No,No,No,No
+No,M,"GBA, Adrogué",0,No,2021-05-11,2024-04-11,Mejora salarial y/o beneficios,46,2.9,,,,,,,No,No,No,
+No,M,"GBA, Escobar",0,No,2022-07-15,2024-11-04,Baja performance (despido),27,2.3,Estructura,People,N/A,N/A,,,No,No,,Si
+No,M,"GBA, Lanus",0,No,2023-09-01,2026-08-30,Mejora salarial y/o beneficios,32,2.9,Operación,Software Engineering,Junio medio,React,Aseguradora Tero,,No,No,,
+No,M,"GBA, Merlo",0,Sí,2021-12-17,2025-07-02,Mejores posibilidades de desarrollo profesional,41,3.5,Operación,Software Engineering,Semi Senior,NodeJS,,,No,No,No,No
+No,M,"GBA, Morón",0,Sí,2021-07-17,2024-05-11,Mejores posibilidades de desarrollo profesional,32,2.8,Operación,Software Engineering,Semi Senior,"Angular ",Aseguradora Tero,C1,No,No,No,No
+No,M,"GBA, Ramos Mejía",0,No,2022-04-13,2026-03-01,Pasa a Nimbus Labs,22,3.8,Operación,Software Engineering,Semi Senior,PL/SQL Oracle,Banco Ñandú,C1,No,No,No,No
+No,M,"GBA, Vicente López",0,No,2023-01-28,2025-12-11,Baja performance (despido),45,2.8,Operación,Software Engineering,Senior medio,React,Aseguradora Tero,,No,No,No,No
+No,M,México,1,No,2023-09-24,2026-02-14,"Razones personales (viajar, estudiar, motivos familiares, etc)",33,2.3,,,,N/A,,B2,No,No,No,
+No,M,Misiones,1,No,2022-01-01,2026-05-28,Sin asignación (despido),26,4.4,Operación,Team Manager,,Team Manager,Retail Calafate,,No,No,No,Si
+No,M,Neuquén,1,No,2023-08-12,2024-03-09,Mejores posibilidades de desarrollo profesional,40,0.5,Operación,Software Engineering,Junior medio,Java,Aseguradora Tero,,No,Si,Si,No
+No,M,Salta,1,No,2025-02-26,2026-01-26,Mejores posibilidades de desarrollo profesional,,0.9,Operación,Software Engineering,Junior avanzado,Java,Agro Pehuén,B1,Si,No,No,Si
+No,M,Santa Fe,1,No,2022-09-25,2023-09-04,"Razones personales (viajar, estudiar, motivos familiares, etc)",29,0.9,Operación,QA Analyst,Senior,QA,,B2,Si,No,No,No
+No,M,Santa Fe,1,No,2023-08-15,2024-02-27,Mejores posibilidades de desarrollo profesional,29,0.5,Operación,Software Engineering,Senior,Angular,Banco Ñandú,,No,No,,
+No,M,Santa Fe,1,Sí,2022-01-28,2024-06-30,Mejores posibilidades de desarrollo profesional,46,2.4,Operación,Software Engineering,Trainee,"Angular ",Banco Ñandú,,No,No,No,
+No,M,Tucumán,1,No,2022-10-21,2025-06-03,Mejores posibilidades de desarrollo profesional,22,2.6,Operación,Software Engineering,Semi Senior,Java,Aseguradora Tero,,Si,No,Si,Si
+No,N,AMBA,0,Sí,2023-01-24,2024-11-11,Pasa a Nimbus Labs,26,1.7,Operación,Team Manager,N/A,,Aseguradora Tero,C2,Si,No,,
+No,N,"GBA, Lanús",0,Sí,2022-06-09,2025-09-13,Mejora salarial y/o beneficios,27,3.2,Operación,Software Engineering,Senior,React,Aseguradora Tero,,No,No,Si,
+No,N,Tucumán,1,No,2022-08-09,2023-08-31,Mejores posibilidades de desarrollo profesional,46,1,Operación,Team Manager,N/A,N/A,,,No,No,No,Si
+Si,F,AMBA,0,No,2022-11-13,,,39,3.8,I+D,I+D Analyst,Senior,Python,I+D,,No,No,No,No
+Si,F,Buenos Aires,0,,2022-01-19,,,40,4.6,Operación,Software Engineering,Semi Senior inicial,Java,Aseguradora Tero,,No,No,,No
+Si,F,Buenos Aires,1,No,2026-07-02,,,22,0.2,Operación,Software Engineering,Senior,Java,Aseguradora Tero,,Si,Si,,No
+Si,F,Buenos Aires,1,Sí,2024-07-19,,,37,2.1,Estructura,IT Support,Senior,N/A,Interno,,No,No,No,
+Si,F,CABA,0,,2025-11-17,,,37,0.8,Estructura,Pre Sales Engineer,N/A,N/A,Interno,,No,No,No,
+Si,F,CABA,0,No,2021-07-12,,,24,5.2,Operación,QA Analyst,Junior medio,QA,Aseguradora Tero,,No,No,No,
+Si,F,CABA,0,No,2023-01-08,,,36,3.7,I+D,Innovation Manager,,,I+D,,No,No,,Si
+Si,F,CABA,0,No,2023-11-16,,,28,2.8,Estructura,Business Manager,N/A,,Interno,,No,No,No,No
+Si,F,CABA,0,Sí,2024-10-04,,,38,1.9,Operación,Team Manager,N/A,N/A,Banco Ñandú,,No,No,,No
+Si,F,CABA,0,Sí,2025-05-22,,,33,1.3,Operación,Team Manager,N/A,,Retail Calafate,,No,No,,
+Si,F,CABA,0,Sí,2025-07-14,,,41,1.1,Estructura,Chief Technology Officer,N/A,N/A,Interno,C1,Si,No,,
+Si,F,Entre Ríos,1,No,2021-03-31,,,35,5.4,Operación,Software Engineering,Senior medio,Python,Aseguradora Tero,,No,No,No,
+Si,F,"GBA, Avellaneda",0,No,2024-04-12,,,36,2.4,Operación,Software Engineering,Semi Senior,.NET,Banco Ñandú,,No,Si,No,No
+Si,F,"GBA, Quilmes",0,No,2023-09-19,,,30,3,Estructura,Business Development Intern,N/A,,Interno,,No,No,,No
+Si,F,"GBA, Quilmes",0,Sí,2026-01-25,,,22,0.6,Operación,Scrum Master,N/A,Scrum Master,Aseguradora Tero,,No,No,No,
+Si,F,"GBA, San Isidro",0,No,2024-10-18,,,50,1.9,I+D,I+D Analyst,,Data,I+D,,Si,No,No,
+Si,F,"GBA, Tres de Febrero",0,No,2022-12-22,,,37,3.7,Operación,Scrum Master,N/A,Scrum Master,Aseguradora Tero,,No,No,Si,No
+Si,F,"GBA, Vicente López",0,,2021-09-11,,,39,5,Operación,Functional Analyst,,Data,Banco Ñandú,,Si,Si,No,Si
+Si,F,"GBA, Vicente López",0,No,2024-09-29,,,37,1.9,Operación,Functional Analyst,Semi Senior,N/A,Banco Ñandú,,Si,No,,No
+Si,F,Mendoza,1,Sí,2024-06-30,,,43,2.2,Operación,Devops,Semi Senior,DevOps,Retail Calafate,,No,No,,No
+Si,F,México,1,,2022-05-13,,,38,4.3,Operación,Software Engineering,Semi Senior,.NET,Aseguradora Tero,,No,No,No,No
+Si,F,Salta,1,No,2021-10-18,,,50,4.9,Operación,Software Engineering,Semi Senior,NodeJS,Energía Puelche,,No,No,No,
+Si,F,Tucumán,1,No,2025-02-07,,,38,1.6,Operación,Software Architect,Semi Senior,.NET,Agro Pehuén,,Si,No,,No
+Si,F,Uruguay,1,No,2024-10-12,,,33,1.9,Operación,Software Engineering,Senior,Java,Aseguradora Tero,,No,No,No,
+Si,M,Buenos Aires,0,No,2024-03-29,,,31,2.4,Operación,Software Engineering,Semi Senior,NodeJs,Logística Ombú,,Si,No,No,Si
+Si,M,Buenos Aires,0,No,2025-03-03,,,32,1.5,Operación,Software Architect,Junior,Java,Aseguradora Tero,A1,No,No,,
+Si,M,Buenos Aires,0,No,2026-04-15,,,32,0.4,Operación,QA Analyst,Junior avanzado,QA,Aseguradora Tero,C2,No,No,,No
+Si,M,Buenos Aires,1,No,2023-01-06,,,30,3.7,Operación,Software Engineering,Semi Senior,"Angular ",Agro Pehuén,,No,No,,No
+Si,M,Buenos Aires,1,No,2023-04-11,,,41,3.4,Operación,Software Engineering,Senior,Python,Agro Pehuén,,No,No,No,
+Si,M,Buenos Aires,1,No,2024-01-30,,,38,2.6,Operación,Software Engineering,Semi Senior,.NET,Aseguradora Tero,,Si,Si,No,Si
+Si,M,Buenos Aires,1,Sí,2026-06-26,,,25,0.2,Operación,Software Engineering,,PL/SQL Oracle,Aseguradora Tero,,Si,No,No,No
+Si,M,CABA,0,,2025-03-01,,,32,1.5,Operación,Functional Analyst,Semi Senior,Data,Banco Ñandú,,Si,Si,No,No
+Si,M,CABA,0,No,2021-07-15,,,52,5.1,Operación,Software Engineering,Junior avanzado,.NET / Angular,Aseg. Tero,,No,No,No,No
+Si,M,CABA,0,No,2021-10-24,,,45,4.9,Operación,Functional Analyst,Junior avanzado,Data,Retail Calafate,,No,No,No,
+Si,M,CABA,0,No,2022-02-08,,,43,4.6,Estructura,People & Culture Partner,N/A,N/A,Interno,,No,No,No,No
+Si,M,CABA,0,No,2022-08-06,,,34,4.1,Estructura,Business Development Manager,N/A,Business Development,Interno,,No,No,,No
+Si,M,CABA,0,No,2022-12-02,,,41,3.8,Operación,Software Engineering,Junior medio,.NET / Angular,Retail Calafate,A2,Si,No,,No
+Si,M,CABA,0,No,2023-04-17,,,33,3.4,Estructura,Infraestructura,Trainee,AWS,Interno,,Si,No,,Si
+Si,M,CABA,0,No,2023-11-20,,,36,2.8,Operación,Devops,Semi Senior avanzado,AWS,Aseguradora Tero,,No,No,,Si
+Si,M,CABA,0,No,2024-10-06,,,33,1.9,Operación,Software Engineering,Senior,NodeJs,Aseguradora Tero,,No,No,No,No
+Si,M,CABA,0,No,2024-11-28,,,49,1.8,Operación,Software Engineering,,Angular,Banco Ñandú,,No,No,Si,No
+Si,M,CABA,0,No,2024-12-22,,,33,1.7,Operación,Software Engineering,Senior,Python,Aseg. Tero,,Si,Si,,
+Si,M,CABA,0,No,2025-01-15,,,47,1.6,Operación,Software Engineering,Junior medio,"Angular ",Banco Ñandú,,Si,Si,No,
+Si,M,CABA,0,No,2025-04-20,,,34,1.4,Operación,Software Engineering,Senior,Angular,Aseguradora Tero,B1,Si,No,,Si
+Si,M,CABA,0,No,2025-06-20,,,25,1.2,Operación,Functional Analyst,Junior medio,Data,Aseguradora Tero,A2,No,No,No,
+Si,M,CABA,0,No,2025-09-04,,,29,1,Estructura,Business Development Manager,N/A,Business Development,Interno,,Si,No,No,No
+Si,M,CABA,0,No,2026-02-26,,,48,0.5,Operación,Software Engineering,Semi Senior inicial,Java,Logística Ombú,A1,No,No,No,No
+Si,M,CABA,0,No,2026-03-07,,,37,0.5,Operación,QA Analyst,Semi Senior,"QA, Automation",Agro Pehuén,,No,No,,
+Si,M,CABA,0,No,2026-05-28,,,31,0.3,Estructura,Business Development Manager,N/A,Business Development,Interno,B1,Si,No,No,No
+Si,M,CABA,0,Sí,2021-03-08,,,45,5.5,Estructura,Chief Operating Officer,N/A,N/A,Interno,C1,Si,No,,
+Si,M,CABA,0,Sí,2023-01-24,,,42,3.6,Estructura,Business Development Manager,N/A,Business Development,Interno,C1,No,No,,No
+Si,M,CABA,0,Sí,2023-11-04,,,33,2.8,Operación,QA Analyst,Semi Senior,QA,Aseguradora Tero,,No,No,Si,No
+Si,M,CABA,0,Sí,2023-11-10,,,41,2.8,Operación,Data Lead,Senior,PowerBI,Banco Ñandú,,No,No,Si,No
+Si,M,CABA,0,Sí,2024-05-02,,,35,2.3,Operación,QA Analyst,,QA,Aseguradora Tero,C2,No,No,,
+Si,M,CABA,0,Sí,2025-03-19,,,35,1.5,I+D,I+D Analyst,,Python,I+D,C1,No,No,No,No
+Si,M,CABA,0,Sí,2025-10-28,,,39,0.9,Operación,Software Engineering,Semi Senior,.NET / Angular,Aseguradora Tero,,No,No,,No
+Si,M,Chubut,1,Sí,2026-06-07,,,34,0.2,Operación,Software Engineering,Semi Senior,React,Aseguradora Tero,,Si,No,,No
+Si,M,España,1,No,2025-04-28,,,38,1.4,Operación,QA Analyst,Junio medio,"QA, Automation",Aseguradora Tero,,No,Si,,No
+Si,M,"GBA, Banfield",0,No,2023-04-18,,,25,3.4,Operación,Software Engineering,Semi Senior,.NET,Logística Ombú,B2,No,No,No,
+Si,M,"GBA, Banfield",0,Sí,2026-03-31,,,30,0.4,I+D,I+D Analyst,Senior,Python,I+D,,No,No,No,
+Si,M,"GBA, Lanús",0,No,2021-01-03,,,25,5.7,Estructura,Business Development Manager,N/A,Business Development,Interno,,No,No,No,
+Si,M,"GBA, Morón",0,No,2023-06-10,,,28,3.2,Operación,Software Engineering,Junior medio,.NET / Angular,Energía Puelche,,Si,No,,No
+Si,M,"GBA, Pilar",0,No,2023-12-06,,,32,2.8,Estructura,Business Manager,N/A,N/A,Interno,,No,No,,Si
+Si,M,"GBA, Pilar",0,Sí,2024-11-06,,,33,1.8,Operación,Software Engineering,Semi Senior,Angular,Aseguradora Tero,A1,Si,No,,No
+Si,M,"GBA, Ramos Mejía",0,Sí,2021-12-12,,,22,4.7,Operación,Software Architect,Senior,.NET,Aseguradora Tero,,No,No,No,Si
+Si,M,"GBA, San Isidro",0,No,2023-03-07,,,32,3.5,Estructura,People,,N/A,Interno,C1,No,No,No,No
+Si,M,"GBA, San Isidro",0,No,2026-08-04,,,39,0.1,Operación,UX/UI Designer,Senior,Figma,Retail Calafate,,No,Si,No,No
+Si,M,"GBA, Tigre",0,No,2022-09-03,,,47,4,Estructura,Business Development Manager,,Business Development,Interno,,No,No,Si,
+Si,M,"GBA, Tigre",0,Sí,2023-07-20,,,45,3.1,Operación,Software Engineering,,React,Aseguradora Tero,,No,No,,
+Si,M,Mendoza,1,No,2023-08-31,,,28,3,Operación,Functional Analyst,Semi Senior,N/A,Aseg. Tero,B1,No,No,No,Si
+Si,M,Mendoza,1,Sí,2024-10-04,,,40,1.9,I+D,I+D Analyst,Junior,Python,I+D,,Si,No,No,No
+Si,M,México,1,No,2023-02-23,,,27,3.5,Operación,Software Engineering,Senior medio,React,Aseg. Tero,,Si,No,,No
+Si,M,Neuquén,1,No,2023-07-12,,,33,3.2,Estructura,Engineering Manager,N/A,,Interno,B2,No,No,Si,No
+Si,M,Rosario,1,,2024-07-20,,,34,2.1,Operación,Team Manager,N/A,N/A,Aseguradora Tero,,No,No,,
+Si,M,Salta,1,Sí,2021-06-19,,,40,5.2,Estructura,Business Development Intern,N/A,N/A,Interno,C1,No,Si,No,
+Si,M,Salta,1,Sí,2025-03-13,,,35,1.5,Operación,Software Engineering,Semi Senior,NodeJS,Aseg. Tero,,No,No,No,No
+Si,M,Santa Fe,1,No,2020-11-14,,,45,5.8,Estructura,Business Development Manager,N/A,Business Development,Interno,,No,No,No,
+Si,M,Santa Fe,1,No,2024-07-08,,,41,2.2,I+D,I+D Analyst,Junio medio,React,I+D,C1,Si,No,No,
+Si,M,Tucumán,1,Sí,2021-08-07,,,24,5.1,Operación,Scrum Master,N/A,Scrum Master,Logística Ombú,,No,No,,No

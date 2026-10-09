@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+build/
+.env
+.env.local
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+coverage/
+.cache/
+
+# Reportes del banco de voz: traen IDs y transcripciones de las conversaciones.
+specs/001-voice-generative-charts/bench/

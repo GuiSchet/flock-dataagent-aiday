@@ -1,0 +1,23 @@
+{
+  "type": "client",
+  "name": "queryCurrentChart",
+  "description": "Consulta los datos exactos del gráfico que está en pantalla: cuál es el más alto, cuánto da el total, cuánto vale una categoría puntual, y de dónde salen (fuente, cuántos registros entraron y qué se agrupó en «Otros»). NUNCA leas un número del gráfico vos mismo ni lo calcules: pedilo acá. Te devuelve los valores ya formateados para que los leas tal cual, y resalta en pantalla la categoría que nombres en highlight.",
+  "expects_response": true,
+  "response_timeout_secs": 10,
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "question": {
+        "type": "string",
+        "description": "La pregunta del usuario, tal cual la dijo."
+      },
+      "highlight": {
+        "type": "string",
+        "description": "Etiqueta de la categoría a resaltar en pantalla, si la pregunta menciona una."
+      }
+    },
+    "required": [
+      "question"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "client",
+  "name": "undoVisualization",
+  "description": "Vuelve al gráfico anterior. Usalo cuando digan 'volvé atrás', 'como estaba antes' o similar. Si ya no hay nada atrás te lo dice y se lo contás al usuario.",
+  "expects_response": true,
+  "response_timeout_secs": 10,
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

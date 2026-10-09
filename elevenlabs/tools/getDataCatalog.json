@@ -1,0 +1,12 @@
+{
+  "type": "client",
+  "name": "getDataCatalog",
+  "description": "Devuelve qué datos hay disponibles: dominios, dimensiones por las que se puede cortar, métricas calculables con su cobertura, y las columnas que NO están disponibles con el motivo. Llamalo cuando el usuario pregunte qué podés mostrarle. Nunca contestes sobre disponibilidad de memoria.",
+  "expects_response": true,
+  "response_timeout_secs": 10,
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}
